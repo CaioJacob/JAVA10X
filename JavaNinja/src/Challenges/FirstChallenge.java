@@ -4,31 +4,65 @@ public class FirstChallenge {
     public static void main(String[] args) {
 
         //Creating Naruto
-        String nameNinja1 = "Naruto Uzumaki";
-        int ageNinja1 = 16;
-        String missionNinja1 = "Help at the Ramen stand";
-        String difficultyLevelNinja1 = "Easy";
-        String statusNinja1 = "Completed";
+        String name = "Naruto Uzumaki";
+        int age = 14;
+        String mission = "Help at the Ramen stand";
+        char difficultyLevel = 'D';
+        String status ="";
 
-        System.out.println(nameNinja1 + " at " + ageNinja1 + " years old received the mission of " + missionNinja1 + " of difficulty " + difficultyLevelNinja1 + " and its status is: " + statusNinja1 + ".");
+        if(age<15) {
+            if (difficultyLevel == 'C' || difficultyLevel == 'D') {
+                status = "Completed";
+            } else {
+                status = "Not Completed";
+            }
+        }else {
+                status = "Completed";
+        }
+
+        System.out.println(name + " at " + age + " years old received the mission of " + mission + " of difficulty " + difficultyLevel + " and its status is: " + status + ".");
+        System.out.println("------------------------------------------------------------------------------------------------------------------");
 
         //Creating Sasuke
-        String nameNinja2 = "Sasuke Uchiha";
-        int ageNinja2 = 17;
-        String missionNinja2 = "Hunt some bandits";
-        String difficultyLevelNinja2 = "Moderate";
-        String statusNinja2 = "In progress";
+        String name2 = "Sasuke Uchiha";
+        int age2 = 14;
+        String mission2 = "Hunt some bandits";
+        char difficultyLevel2 = 'S';
+        String status2 ="";
 
-        System.out.println(nameNinja2 + " at " + ageNinja2 + " years old received the mission of " + missionNinja2 + " of difficulty " + difficultyLevelNinja2 + " and its status is: " + statusNinja2 + ".");
+        if(age2<15) {
+            if (difficultyLevel2 == 'C' || difficultyLevel2 == 'D') {
+                status2 = "Completed";
+            } else {
+                status2 = "Not Completed";
+            }
+        }else {
+            status2 = "Completed";
+        }
+
+
+        System.out.println(name2 + " at " + age2 + " years old received the mission of " + mission2 + " of difficulty " + difficultyLevel2 + " and its status is: " + status2 + ".");
+        System.out.println("------------------------------------------------------------------------------------------------------------------");
 
         //Creating Sakura
-        String nameNinja3 = "Sakura Haruno";
-        int ageNinja3 = 15;
-        String missionNinja3 = "Help in the hospital";
-        String difficultyLevelNinja3 = "Easy";
-        String statusNinja3 = "Completed";
+        String name3 = "Sakura Haruno";
+        int age3 = 15;
+        String mission3 = "Help in the hospital";
+        char difficultyLevel3 = 'C';
+        String status3 ="";
 
-        System.out.println(nameNinja3 + " at " + ageNinja3 + " years old received the mission of " + missionNinja3 + " of difficulty " + difficultyLevelNinja3 + " and its status is: " + statusNinja3 + ".");
+        if(age3<15) {
+            if (difficultyLevel3 == 'C' || difficultyLevel3 == 'D') {
+                status3 = "Completed";
+            } else {
+                status3 = "Not Completed";
+            }
+        }else {
+            status3 = "Completed";
+        }
+
+        System.out.println(name3 + " at " + age3 + " years old received the mission of " + mission3 + " of difficulty " + difficultyLevel3 + " and its status is: " + status3 + ".");
+
 
     }
 }
