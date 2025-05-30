@@ -14,8 +14,6 @@ public class PrimitiveData {
         boolean aliveOrDead = true;
         Long bankBalance = 9999999L; // Max value:9,223,372,036,854,775,807
 
-
-
     }
 
 }
