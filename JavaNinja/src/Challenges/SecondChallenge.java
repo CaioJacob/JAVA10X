@@ -55,6 +55,7 @@ public class SecondChallenge {
                         ninja[registeredNinjas] = null;
                         System.out.println("Ninja has been deleted successfully.");
                     }
+                    break;
                 case 4:
                     System.out.println("You have exited the menu!");
                     break;
