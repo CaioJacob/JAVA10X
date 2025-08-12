@@ -14,7 +14,13 @@ public class Main {
         Sasuke.name = "Sasuke Uchiha";
         Sasuke.village = "Konohagakure";
         Sasuke.age = 18;
-        
+
+        // Applying methods to my objects
+        Sasuke.ShariganActivated();
+        String callingMethod = Sasuke.IAmANinja();
+        System.out.println(callingMethod);
+        int timeIsLeft = Sasuke.AgeToBecomeHokage(70);
+        System.out.println("You are " + Sasuke.age + " years old so you have at least " + timeIsLeft + " years left to become Hokage!");
 
         // Create Sakura
         Ninja Sakura = new Ninja();
