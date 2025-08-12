@@ -1,4 +1,4 @@
-package DataTypes;
+package BasicLevel;
 
 public class PrimitiveData {
     public static void main(String[] args) {

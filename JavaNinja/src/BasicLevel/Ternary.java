@@ -1,4 +1,4 @@
-package Conditions;
+package BasicLevel;
 
 public class Ternary {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DataTypes;
+package BasicLevel;
 
 public class NonPrimitiveData {
     public static void main(String[] args) {
