@@ -8,27 +8,27 @@ public class Main {
         Naruto.name = "Naruto Uzumaki";
         Naruto.village = "Konohagakure";
         Naruto.age = 17;
-        Naruto.sageModeActivated();
+        Naruto.SageModeActivated();
 
         // Object 2
         Uchiha Sasuke = new Uchiha();
         Sasuke.name = "Sasuke Uchiha";
         Sasuke.village = "Konohagakure";
         Sasuke.age = 18;
-        Sasuke.shariganActivated();
+        Sasuke.ShariganActivated();
 
        // Object 3
         Haruno Sakura = new Haruno();
         Sakura.name = "Sakura Haruno";
         Sakura.village = "Konohagakure";
         Sakura.age = 18;
-        Sakura.activateHealing();
+        Sakura.ActivateHealing();
 
        // Object 4
        Hyuga Hinata = new Hyuga();
        Hinata.name = "Hinata Hyuga";
        Hinata.village = "Konohagakure";
        Hinata.age = 16;
-       Hinata.byakuganActivated();
+       Hinata.ByakuganActivated();
     }
 }
