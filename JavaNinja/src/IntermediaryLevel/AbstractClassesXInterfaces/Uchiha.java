@@ -6,4 +6,11 @@ public class Uchiha extends Ninja {
         System.out.println("My name is " + name);
     }
 
+    @Override
+    public void specialSkill() {
+        System.out.println("My name is " + name + " and this is my Uchiha attack, Katon no Jutsu!");
+    }
+
+
+
 }
