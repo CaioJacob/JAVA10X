@@ -17,18 +17,31 @@ public class Main {
         Sasuke.age = 18;
         Sasuke.ShariganActivated();
 
-       // Object 3
+        // Object 3
         Haruno Sakura = new Haruno();
         Sakura.name = "Sakura Haruno";
         Sakura.village = "Konohagakure";
         Sakura.age = 18;
         Sakura.ActivateHealing();
 
-       // Object 4
-       Hyuga Hinata = new Hyuga();
-       Hinata.name = "Hinata Hyuga";
-       Hinata.village = "Konohagakure";
-       Hinata.age = 16;
-       Hinata.ByakuganActivated();
+        // Object 4
+        Hyuga Hinata = new Hyuga();
+        Hinata.name = "Hinata Hyuga";
+        Hinata.village = "Konohagakure";
+        Hinata.age = 16;
+        Hinata.ByakuganActivated();
+
+
+        // Object 5
+        Boruto Boruto = new Boruto();
+        Boruto.name = "Boruto Hyuga Uzumaki";
+        Boruto.village = "Konohagakure";
+        Boruto.age = 9;
+        Boruto.ActivateJougan();
+        Boruto.SageModeActivated();
+        Boruto.ActivateTheKarma();
+
+
+
     }
 }

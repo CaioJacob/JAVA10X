@@ -2,7 +2,7 @@ package IntermediaryLevel;
 
 public class Ninja {
 
-    String name;
+    static String name;
     String village;
     int age;
 
