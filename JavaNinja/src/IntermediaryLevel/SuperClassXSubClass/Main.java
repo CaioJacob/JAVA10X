@@ -10,15 +10,14 @@ public class Main {
         naruto.ninjaBattleStrategy();
         naruto.specialSkill();
 
-
-        Uchiha sasuke = new Uchiha();
-        sasuke.name = "Sasuke Uchiha";
-        sasuke.village = "Konohagakure";
-        sasuke.age = 18;
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konohagakure", 18, 20, LevelNinja.GENIN);
         sasuke.specialSkill();
 
        Uchiha itachi = new Uchiha("Itachi Uchiha", "Konohagakure", 27);
        itachi.specialSkill();
 
+       Uchiha madara = new Uchiha("Madara Uchiha", "Konohagakure", 45, 900, LevelNinja.KAGE);
+       madara.specialSkill();
+       madara.ninjaBattleStrategy();
     }
 }
