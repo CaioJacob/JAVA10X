@@ -33,6 +33,12 @@ public class Uchiha extends Ninja {
         } else {
             System.out.println("Your QI is: " + qi + ". You need to train your strategies more!");
         }
-
     }
+
+    // Works even without @Override
+    // It is good practice to use @Override and prevent any typing errors in the method.
+    public void provisionalMethod(){
+        System.out.println("Uchiha test!");
+    }
+
 }

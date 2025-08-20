@@ -54,4 +54,10 @@ public abstract class Ninja implements NinjaBattleStrategy {
 
     }
 
+    // no @Override method
+    public void provisionalMethod(){
+        System.out.println("test!");
+    }
+
+
 }

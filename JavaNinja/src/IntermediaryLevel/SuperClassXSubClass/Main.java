@@ -10,6 +10,7 @@ public class Main {
 
        Uchiha itachi = new Uchiha("Itachi Uchiha", "Konohagakure", 27, 500, LevelNinja.JONIN);
        itachi.specialSkill();
+       itachi.provisionalMethod();
 
        Uchiha madara = new Uchiha("Madara Uchiha", "Konohagakure", 45, 900, LevelNinja.KAGE);
        madara.specialSkill();
