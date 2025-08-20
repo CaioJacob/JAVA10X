@@ -2,7 +2,6 @@ package IntermediaryLevel.SuperClassXSubClass;
 
 public abstract class Ninja implements NinjaBattleStrategy {
 
-
     //TODO: Include 2 new attributes: numberOfCompletedMissions, rank
     //TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
 
@@ -37,6 +36,22 @@ public abstract class Ninja implements NinjaBattleStrategy {
     }
 
     public void specialSkill(){
-        System.out.println("My name is " + name + "and this is my Special skill!");
+        System.out.println("My name is " + name + "and this is my Special Skill!");
     }
+
+    public void combatIntelligence() {
+        System.out.println("My name is " + name + "and this is my Combat Intelligence!");
+    }
+
+    public void combatIntelligence(int qi) {
+        if (qi > 150) {
+            System.out.println("Your QI is: " + qi + ". You are a genius!");
+        } else if (qi >= 130) {
+            System.out.println("Your QI is: " + qi + ". You are a promising ninja!");
+        } else {
+            System.out.println("Your QI is: " + qi + ". You need to train your strategies more!");
+        }
+
+    }
+
 }
