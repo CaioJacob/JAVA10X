@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Konohagakure", 16, 10, LevelNinja.GENIN);
+        naruto.throwKunai();
+        System.out.println(naruto.height);
 
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konohagakure", 18, 20, LevelNinja.GENIN);
         sasuke.specialSkill();

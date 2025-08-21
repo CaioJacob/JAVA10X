@@ -10,6 +10,13 @@ public abstract class Ninja implements NinjaBattleStrategy {
     int age;
     int numberOfCompletedMissions;
     LevelNinja rank;
+    final double height = 2.10; // Cannot be overwritten
+
+    // EVERY NINJA WILL DO NECESSARILY
+    // Final methods cannot be overridden.
+    final void throwKunai(){
+        System.out.println("I AM A MOTHER CLASS METHOD");
+    }
 
     public Ninja() {
     }
