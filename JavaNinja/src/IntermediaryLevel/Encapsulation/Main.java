@@ -14,7 +14,11 @@ public class Main {
         System.out.println("--------------- Sasuke Uchiha ---------------");
 
 
+        Missions mission1 = new Missions("Rescue dog", MissionsRank.D);
+        mission1.displayDetails();
 
+        Missions mission2 = new Missions("Defeat Zabuza", MissionsRank.A);
+        mission2.displayDetails();
 
 
 
