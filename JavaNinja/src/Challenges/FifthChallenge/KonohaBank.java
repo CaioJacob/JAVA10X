@@ -4,7 +4,7 @@ public class KonohaBank {
 
     public void transfer(BankAccount from, BankAccount to, double amount) {
         if (from.getBalance() >= amount) {
-            from.deposit(amount);
+            from.withdraw(amount);
             to.deposit(amount);
             System.out.println("Transfer of: " + amount + " from " + from.getAccountType() + " to " + to.getAccountType());
         }else{

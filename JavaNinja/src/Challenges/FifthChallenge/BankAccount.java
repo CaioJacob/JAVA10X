@@ -28,7 +28,7 @@ public abstract class BankAccount implements Account {
 
     public void withdraw(double amount) {
         if (amount <= balance) {
-            amount -= balance;
+            balance -= amount;
             System.out.println("Withdrawn of: $" + amount + " made.");
         }else{
             System.out.println("Insufficient funds.");

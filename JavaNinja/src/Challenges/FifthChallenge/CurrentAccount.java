@@ -8,7 +8,7 @@ public class CurrentAccount extends BankAccount{
 
     @Override
     public void deposit(double amount) {
-        amount += balance;
+        balance += amount;
         System.out.println(accountType + " deposit: " + amount);
     }
 
