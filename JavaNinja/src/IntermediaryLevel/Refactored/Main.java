@@ -5,12 +5,12 @@ public class Main {
 
         System.out.println("--------------- Naruto Uzumaki ---------------");
 
-        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Konohagakure", 16, 15, LevelNinja.GENIN);
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Konohagakure", 16, 15, LevelNinja.GENIN, Biju.KURAMA);
         naruto.myBiju();
 
         System.out.println("--------------- Sasuke Uchiha ---------------");
 
-        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konohagakure", 18, 20, LevelNinja.GENIN);
+        Uchiha sasuke = new Uchiha("Sasuke U chiha", "Konohagakure", 18, 20, LevelNinja.GENIN);
         sasuke.specialSkill();
 
         System.out.println("--------------- Itachi Uchiha ---------------");
