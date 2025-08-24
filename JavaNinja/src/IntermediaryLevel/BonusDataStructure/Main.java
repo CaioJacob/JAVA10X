@@ -1,8 +1,6 @@
 package IntermediaryLevel.BonusDataStructure;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +26,7 @@ public class Main {
         ninjaNameList.add("Hinata Hyuuga");
         System.out.println(ninjaNameList);
 
-        System.out.println("----------- Stack ----------");
+        System.out.println("----------- Stack ----------"); //FILO (First In, Last Out)
         Stack<String> ninjaStack = new Stack<>();
         ninjaStack.push("Naruto Uzumaki");
         ninjaStack.push("Sasuke Uchiha");
@@ -39,6 +37,31 @@ public class Main {
         System.out.println(ninjaStack);
         System.out.println("Top Ninja Name: " + ninjaStack.peek());
         System.out.println(ninjaStack);
+
+        System.out.println("----------- Queue ----------"); // FIFO (First In, First Out)
+        Queue<String> ninjaQueue = new LinkedList<>();
+        ninjaQueue.add("Naruto");
+        ninjaQueue.add("Sasuke");
+        ninjaQueue.add("Sakura");
+        ninjaQueue.add("Kakahi");
+        ninjaQueue.add("Shikamaru");
+        System.out.println("Queue of Ninjas: " + ninjaQueue);
+        ninjaQueue.poll(); // Removes the head from the list
+        System.out.println(ninjaQueue);
+        System.out.println("Head Ninja Name: " + ninjaQueue.peek());
+        ninjaQueue.add("Hashirama");
+        ninjaQueue.add("Tobirama");
+        System.out.println(ninjaQueue);
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+
+        if(ninjaQueue.isEmpty()){
+            System.out.println("Ninja Queue is Empty");
+        }
 
 
     }
