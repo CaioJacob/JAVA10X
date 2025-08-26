@@ -32,6 +32,31 @@ public class Main {
         linkedList2.add("Naruto");
         System.out.println(linkedList2);
 
+        // HashSet
+
+        List<String> ninjas = new ArrayList<>();
+        ninjas.add("Naruto Uzumaki");
+        ninjas.add("Sasuke Uchiha");
+        ninjas.add("Sakura Haruno");
+        ninjas.add("Naruto Uzumaki"); // Do not complain about duplicate items
+
+        System.out.println("Ninjas List: " + ninjas);
+
+        // If you want to use this list to use in the Set Collection:
+
+        Set<String> ninjasSet = new HashSet<>();
+        ninjasSet.addAll(ninjas);
+        System.out.println("Ninjas List with Set: " + ninjasSet);
+
+        Set<String> ninjaSet = new HashSet<>();
+        ninjasSet.add("Naruto Uzumaki");
+        ninjasSet.add("Sasuke Uchiha");
+        ninjasSet.add("Sakura Haruno");
+        ninjasSet.add("Naruto Uzumaki");
+
+        System.out.println("Ninjas Set: " + ninjasSet); // Remove the duplicated item
+        // The order is not necessarily in the order you implemented
+
 
     }
 }
