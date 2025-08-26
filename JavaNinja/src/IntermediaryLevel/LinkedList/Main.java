@@ -5,6 +5,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("--------------- LinkedList ---------------");
+
         LinkedList<String> linkedList = new LinkedList<>();
         linkedList.add("Naruto Uzumaki");
         linkedList.add("Sasuke Uchiha");
@@ -34,6 +36,9 @@ public class Main {
 
         // HashSet
 
+        System.out.println("--------------- HashSet ---------------");
+
+
         List<String> ninjas = new ArrayList<>();
         ninjas.add("Naruto Uzumaki");
         ninjas.add("Sasuke Uchiha");
@@ -53,9 +58,25 @@ public class Main {
         ninjasSet.add("Sasuke Uchiha");
         ninjasSet.add("Sakura Haruno");
         ninjasSet.add("Naruto Uzumaki");
+        ninjasSet.add("Danzo");
+        ninjasSet.add("Kakashi Hatake");
+        ninjasSet.add("Boruto Uzumaki");
+
+        // LinkedHashSet - Does the same thing that a hashset does but in the order that was implemented
 
         System.out.println("Ninjas Set: " + ninjasSet); // Remove the duplicated item
         // The order is not necessarily in the order you implemented
+
+        // TreeSet
+
+        System.out.println("--------------- TreeSet ---------------");
+
+        Set<String> treeSet = new TreeSet<>(); // Remove the duplicated itens and put in logic order
+        ninjasSet.addAll(ninjasSet);
+        System.out.println("Ninjas Set with TreeSet: " + treeSet);
+
+
+
 
 
     }
